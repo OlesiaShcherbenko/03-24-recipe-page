@@ -1,0 +1,18 @@
+@use 'src/util' as u;
+
+table {
+    width: 100%;
+    text-align: left;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+td {
+    padding: u.rem(12);
+    border-bottom: u.rem(1) solid var(--c-whitecoffee);
+}
+
+.kcal {
+    color: var(--c-brandyred);
+    font-weight: 700;
+}

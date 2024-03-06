@@ -5,6 +5,7 @@ import image from './assets/image-omelette.jpeg';
 import Preparation from './components/Preparation';
 import Ingredients from './components/Ingredients';
 import Instructions from './components/Instructions';
+import Nutrition from './components/Nutrition';
 
 function App() {
   
@@ -20,8 +21,9 @@ function App() {
         <Ingredients />
         <hr className='line'></hr>
         <Instructions />
+        <hr className='line'></hr>
+        <Nutrition />
       </div>
-      <p>Nutrition The table below shows nutritional values per serving without the additional fillings. Calories 277kcal Carbs 0g Protein 20g Fat 22g</p>
     {/*
       <div>
         <a href="https://vitejs.dev" target="_blank">

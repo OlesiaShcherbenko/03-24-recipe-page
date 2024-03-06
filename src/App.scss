@@ -5,18 +5,21 @@
   height: auto;
   background-color: #FFFFFF;
   border-radius: u.rem(24);
+  padding: u.rem(40);
 }
 
 .img {
-  width: u.rem(656);
+  width: 100%;
   height: u.rem(300);
   border-radius: u.rem(12);
-  margin: u.rem(40);
+  margin-bottom: u.rem(40);
 }
 
+/*
 .content {
   margin: u.rem(0) u.rem(40) u.rem(40) u.rem(40);
 }
+*/
 
 h1 {
   margin: 0;
@@ -30,11 +33,13 @@ p {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   line-height: 150%;
+  margin-bottom: u.rem(24);
 }
 
 .line {
   border-top: u.rem(1);
   color: var(--c-whitecoffee);
+  margin: u.rem(32) 0;
 }
 
 /*
