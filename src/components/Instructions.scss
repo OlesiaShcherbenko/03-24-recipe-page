@@ -1,0 +1,13 @@
+@use 'src/util' as u;
+
+ol {
+    margin-bottom: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--c-wengebrown);
+}
+
+ li {
+    margin: u.rem(8) 0;
+ }

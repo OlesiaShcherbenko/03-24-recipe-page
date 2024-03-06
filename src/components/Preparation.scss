@@ -1,0 +1,27 @@
+@use 'src/util' as u;
+
+.prepatation {
+    background-color: var(--c-snow);
+    border-radius: u.rem(16);
+    padding: u.rem(28);
+    margin: u.rem(32) 0;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: var(--c-dark-raspberry);
+    margin: 0 0 u.rem(16) 0;
+}
+
+ul {
+    margin-bottom: 0;
+    font-family: "Outfit", sans-serif;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--c-wengebrown);
+}
+
+span {
+    font-weight: 700;
+}

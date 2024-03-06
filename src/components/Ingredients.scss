@@ -1,0 +1,10 @@
+@use 'src/util' as u;
+
+.ingredients {
+    margin-bottom: u.rem(32);
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: var(--c-dark-raspberry);
+}
